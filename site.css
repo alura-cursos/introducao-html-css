@@ -10,6 +10,10 @@ h2 {
     font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
+h1 {
+    text-transform: uppercase;
+}
+
 .citacao-bio {
     background-color: #D9E5E3;
     border: 10px solid #C2CCCA;
@@ -51,6 +55,7 @@ p {
 .navegacao-site a {
     color: inherit;
     font-family: "Open Sans Condensed", "Arial", sans-serif;
+    text-transform: lowercase;
 }
 
 .navegacao-site h1 {
@@ -90,4 +95,23 @@ em {
     font-size: 24px;
     text-align: center;
     background-color: #E6E7E8;
+}
+
+.icones-redes-sociais a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -99999px;
+}
+
+.github {
+    background-image: url(github.png);
+}
+
+.twitter {
+    background-image: url(twitter.png);
+}
+
+.linkedin {
+    background-image: url(linkedin.png);
 }
