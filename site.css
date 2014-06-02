@@ -34,6 +34,7 @@ h1 {
 
 .subtitulo-texto {
     font-size: 30px;
+    clear: both;
 }
 
 main a {
@@ -67,6 +68,7 @@ p {
     background-color: #000;
     color: #F2FFFC;
     padding: 20px;
+    clear: both;
 }
 
 .container {
@@ -114,4 +116,32 @@ em {
 
 .linkedin {
     background-image: url(linkedin.png);
+}
+
+.petrobras {
+    float: left;
+    margin-left: 0;
+}
+
+.fiat {
+    float: right;
+    margin-right: 0;
+}
+
+main {
+    width: 80%;
+    float: left;
+}
+
+.minha-foto,
+.navegacao-site {
+    width: 20%;
+    float: right;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    box-sizing: border-box;
+}
+
+.navegacao-site {
+    clear: right;
 }
