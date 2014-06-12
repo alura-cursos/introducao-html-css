@@ -69,6 +69,14 @@ p {
     color: #F2FFFC;
     padding: 20px;
     clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url(eu-ico-small.png);
+    background-position: 99% center;
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -131,17 +139,25 @@ em {
 main {
     width: 80%;
     float: left;
+    padding-bottom: 80px;
 }
 
 .minha-foto,
 .navegacao-site {
-    width: 20%;
-    float: right;
     border-left: 10px solid black;
     border-bottom: 10px solid black;
     box-sizing: border-box;
 }
 
 .navegacao-site {
-    clear: right;
+    width: 20%;
+    float: right;
+    position: relative;
+    top: 310px;
+}
+
+.minha-foto {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
