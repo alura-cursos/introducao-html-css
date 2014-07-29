@@ -65,7 +65,7 @@ p {
     left: 0;
     width: 100%;
     box-sizing: border-box;
-    background-image: url(eu-ico-small.png);
+    background-image: url(../imagens/eu-ico-small.png);
     background-position: 99% center;
     background-repeat: no-repeat;
 }
@@ -97,15 +97,15 @@ em {
 }
 
 .github {
-    background-image: url(github.png);
+    background-image: url(../imagens/github.png);
 }
 
 .twitter {
-    background-image: url(twitter.png);
+    background-image: url(../imagens/twitter.png);
 }
 
 .linkedin {
-    background-image: url(linkedin.png);
+    background-image: url(../imagens/linkedin.png);
 }
 
 main {
